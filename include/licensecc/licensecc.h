@@ -4,6 +4,22 @@
 #ifndef LICENSEPP_H_
 #define LICENSEPP_H_
 
+#ifndef LICENSECC_VERSION_MAJ
+#define LICENSECC_VERSION_MAJ 2
+#endif
+
+#ifndef LICENSECC_VERSION_MIN
+#define LICENSECC_VERSION_MIN 1
+#endif
+
+#ifndef LICENSECC_VERSION_PAT
+#define LICENSECC_VERSION_PAT 0
+#endif
+
+#ifndef LICENSECC_VERSION
+#define LICENSECC_VERSION "2.1.0"
+#endif
+
 /*
  * This include file is the public api di Licensecc
  */
